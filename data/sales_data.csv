@@ -1,0 +1,601 @@
+date,transaction_id,product_id,product_name,category,store,quantity,unit_price,payment_method
+2026-01-31,T1000,P006,Full Cream Milk 2L,Dairy,Sandton,9,34.0,Cash
+2026-06-03,T1001,P010,Beef Mince 1kg,Meat,Pretoria,9,135.0,Mobile
+2026-05-31,T1002,P008,Tomatoes 1kg,Produce,Sandton,4,30.0,Card
+2026-01-29,T1003,P005,Cheddar Cheese 500g,Dairy,Sandton,14,95.0,Mobile
+2026-01-03,T1004,P008,Tomatoes 1kg,Produce,Soweto,11,30.0,Cash
+2026-04-12,T1005,P005,Cheddar Cheese 500g,Dairy,Soweto,6,95.0,Mobile
+2026-05-12,T1006,P002,Rooibos Tea 100g,Beverages,Soweto,12,55.0,Card
+2026-05-23,T1007,P009,Chicken Breasts 1kg,Meat,Soweto,5,120.0,Mobile
+2026-02-06,T1008,P010,Beef Mince 1kg,Meat,Sandton,5,135.0,EFT
+2026-04-04,T1009,P008,Tomatoes 1kg,Produce,Sandton,7,30.0,Mobile
+2026-05-30,T1010,P009,Chicken Breasts 1kg,Meat,Sandton,8,120.0,Mobile
+2026-05-10,T1011,P010,Beef Mince 1kg,Meat,Pretoria,15,135.0,Mobile
+2026-05-15,T1012,P005,Cheddar Cheese 500g,Dairy,Pretoria,14,95.0,Mobile
+2026-05-12,T1013,P009,Chicken Breasts 1kg,Meat,Sandton,13,120.0,Cash
+2026-02-03,T1014,P001,Coffee Beans 1kg,Beverages,Sandton,12,180.0,Mobile
+2026-05-01,T1015,P003,Whole Wheat Bread,Bakery,Rosebank,,28.0,Card
+2026-06-10,T1016,P008,Tomatoes 1kg,Produce,Pretoria,11,30.0,EFT
+2026-05-24,T1017,P007,Bananas 1kg,Produce,Soweto,11,24.0,Mobile
+2026-04-13,T1018,P007,Bananas 1kg,Produce,Soweto,4,24.0,EFT
+2026-01-03,T1019,P001,Coffee Beans 1kg,Beverages,Pretoria,3,180.0,Mobile
+2026-04-03,T1020,P004,Croissant,Bakery,Pretoria,5,22.5,Mobile
+2026-05-11,T1021,P008,Tomatoes 1kg,Produce,Pretoria,13,30.0,Card
+2026-03-16,T1022,P006,Full Cream Milk 2L,Dairy,Sandton,8,34.0,Mobile
+2026-06-26,T1023,P009,Chicken Breasts 1kg,Meat,Pretoria,5,120.0,Cash
+2026-04-19,T1024,P008,Tomatoes 1kg,Produce,Soweto,2,30.0,Mobile
+2026-04-05,T1025,P002,Rooibos Tea 100g,Beverages,Pretoria,4,55.0,Cash
+2026-04-26,T1026,P001,Coffee Beans 1kg,Beverages,Sandton,2,180.0,Mobile
+2026-05-29,T1027,P009,Chicken Breasts 1kg,Meat,Sandton,15,120.0,Cash
+2026-03-05,T1028,P002,Rooibos Tea 100g,Beverages,Sandton,10,55.0,EFT
+2026-06-21,T1029,P006,Full Cream Milk 2L,Dairy,Sandton,3,34.0,EFT
+2026-06-20,T1030,P010,Beef Mince 1kg,Meat,Pretoria,10,135.0,Cash
+2026-05-20,T1031,P004,Croissant,Bakery,Rosebank,8,22.5,EFT
+2026-01-22,T1032,P007,Bananas 1kg,Produce,Rosebank,11,24.0,Cash
+2026-05-31,T1033,P005,Cheddar Cheese 500g,Dairy,Pretoria,9,95.0,Mobile
+2026-02-08,T1034,P009,Chicken Breasts 1kg,Meat,Rosebank,13,120.0,Mobile
+2026-01-04,T1035,P002,Rooibos Tea 100g,Beverages,Sandton,7,55.0,Card
+2026-03-30,T1036,P006,Full Cream Milk 2L,Dairy,Sandton,15,34.0,Card
+2026-05-11,T1037,P008,Tomatoes 1kg,Produce,Soweto,6,30.0,Mobile
+2026-03-25,T1038,P002,Rooibos Tea 100g,Beverages,Pretoria,8,55.0,Cash
+2026-02-09,T1039,P010,Beef Mince 1kg,Meat,Rosebank,9,135.0,Mobile
+2026-06-09,T1040,P006,Full Cream Milk 2L,Dairy,Rosebank,8,34.0,Card
+2026-05-21,T1041,P007,Bananas 1kg,Produce,Rosebank,1,24.0,Cash
+2026-01-12,T1042,P009,Chicken Breasts 1kg,Meat,Sandton,15,unknown,Mobile
+2026-06-14,T1043,P004,Croissant,Bakery,Sandton,8,22.5,Cash
+2026-06-15,T1044,P009,Chicken Breasts 1kg,Meat,Rosebank,4,120.0,Cash
+2026-06-19,T1045,P003,Whole Wheat Bread,Bakery,Soweto,7,28.0,Mobile
+2026-05-17,T1046,P007,Bananas 1kg,Produce,Sandton,14,24.0,Mobile
+2026-03-20,T1047,P003,Whole Wheat Bread,Bakery,Rosebank,6,28.0,EFT
+2026-04-29,T1048,P008,Tomatoes 1kg,Produce,Pretoria,13,30.0,EFT
+2026-04-30,T1049,P003,Whole Wheat Bread,Bakery,Pretoria,6,28.0,Mobile
+2026-01-31,T1050,P009,Chicken Breasts 1kg,Meat,Soweto,13,120.0,Card
+2026-02-24,T1051,P004,Croissant,Bakery,Sandton,1,22.5,Mobile
+2026-06-15,T1052,P006,Full Cream Milk 2L,Dairy,Rosebank,7,34.0,Card
+2026-04-01,T1053,P003,Whole Wheat Bread,Bakery,Rosebank,6,28.0,Card
+2026-06-08,T1054,P005,Cheddar Cheese 500g,Dairy,Rosebank,9,95.0,EFT
+2026-05-25,T1055,P005,Cheddar Cheese 500g,Dairy,Rosebank,11,95.0,Card
+2026-03-09,T1056,P002,Rooibos Tea 100g,Beverages,Rosebank,7,55.0,Card
+2026-06-25,T1057,P001,Coffee Beans 1kg,Beverages,Soweto,13,180.0,Cash
+2026-06-15,T1058,P002,Rooibos Tea 100g,Beverages,Soweto,9,55.0,EFT
+2026-05-31,T1059,P002,Rooibos Tea 100g,Beverages,Soweto,5,55.0,Cash
+2026-03-08,T1060,P005,Cheddar Cheese 500g,Dairy,Sandton,2,95.0,Mobile
+2026-03-07,T1061,P007,Bananas 1kg,Produce,Sandton,1,24.0,Card
+2026-03-02,T1062,P001,Coffee Beans 1kg,Beverages,Sandton,5,180.0,Card
+2026-06-25,T1063,P009,Chicken Breasts 1kg,Meat,Soweto,10,120.0,EFT
+2026-04-27,T1064,P010,Beef Mince 1kg,Meat,Sandton,11,135.0,Mobile
+2026-03-22,T1065,P010,Beef Mince 1kg,Meat,Pretoria,4,135.0,Mobile
+2026-06-23,T1066,P002,Rooibos Tea 100g,Beverages,Soweto,11,55.0,EFT
+2026-04-10,T1067,P005,Cheddar Cheese 500g,Dairy,Soweto,14,95.0,Card
+2026-04-22,T1068,P001,Coffee Beans 1kg,Beverages,Soweto,5,180.0,EFT
+2026-02-01,T1069,P005,Cheddar Cheese 500g,Dairy,Pretoria,13,95.0,EFT
+2026-05-30,T1070,P001,Coffee Beans 1kg,Beverages,Soweto,9,180.0,Cash
+2026-05-24,T1071,P001,Coffee Beans 1kg,Beverages,Sandton,12,180.0,Cash
+2026-06-08,T1072,P002,Rooibos Tea 100g,Beverages,Sandton,2,55.0,Cash
+2026-05-14,T1073,P006,Full Cream Milk 2L,Dairy,Soweto,10,34.0,Card
+2026-04-19,T1074,P010,Beef Mince 1kg,Meat,Soweto,3,135.0,Mobile
+2026-04-09,T1075,P007,Bananas 1kg,Produce,Pretoria,4,24.0,Cash
+2026-02-02,T1076,P003,Whole Wheat Bread,Bakery,Sandton,9,28.0,Mobile
+2026-03-07,T1077,P003,Whole Wheat Bread,Bakery,Sandton,4,28.0,Card
+2026-03-12,T1078,P009,Chicken Breasts 1kg,Meat,Pretoria,8,120.0,EFT
+2026-03-22,T1079,P003,Whole Wheat Bread,Bakery,Sandton,11,28.0,Cash
+2026-05-22,T1080,P001,Coffee Beans 1kg,Beverages,Soweto,11,180.0,EFT
+2026-06-12,T1081,P009,Chicken Breasts 1kg,Meat,Soweto,13,120.0,Card
+2026-06-18,T1082,P001,Coffee Beans 1kg,Beverages,Rosebank,11,180.0,Mobile
+2026-01-15,T1083,P004,Croissant,Bakery,Rosebank,11,22.5,Mobile
+2026-07-01,T1084,P006,Full Cream Milk 2L,Dairy,Rosebank,13,34.0,EFT
+2026-03-29,T1085,P004,Croissant,Bakery,Soweto,6,22.5,Mobile
+2026-06-13,T1086,P008,Tomatoes 1kg,Produce,Pretoria,9,30.0,EFT
+2026-02-18,T1087,P003,Whole Wheat Bread,Bakery,Pretoria,11,28.0,Cash
+2026-02-18,T1087,P003,Whole Wheat Bread,Bakery,Pretoria,11,28.0,Cash
+2026-06-13,T1089,P003,Whole Wheat Bread,Bakery,Soweto,2,28.0,EFT
+2026-05-20,T1090,P005,Cheddar Cheese 500g,Dairy,Sandton,3,95.0,Card
+2026-05-17,T1091,P004,Croissant,Bakery,Soweto,14,22.5,Card
+2026-04-11,T1092,P007,Bananas 1kg,Produce,Rosebank,9,24.0,Card
+2026-01-22,T1093,P003,Whole Wheat Bread,Bakery,Pretoria,12,28.0,EFT
+2026-05-21,T1094,P005,Cheddar Cheese 500g,Dairy,Sandton,5,95.0,Cash
+2026-02-11,T1095,P005,Cheddar Cheese 500g,Dairy,Soweto,5,95.0,EFT
+2026-02-04,T1096,P007,Bananas 1kg,Produce,Sandton,4,24.0,Mobile
+2026-04-19,T1097,P006,Full Cream Milk 2L,Dairy,Rosebank,13,34.0,Card
+2026-02-15,T1098,P006,Full Cream Milk 2L,Dairy,Rosebank,9,34.0,Cash
+2026-01-08,T1099,P002,Rooibos Tea 100g,Beverages,Sandton,9,55.0,EFT
+2026-01-17,T1100,P006,Full Cream Milk 2L,Dairy,Rosebank,5,34.0,Cash
+2026-06-03,T1101,P010,Beef Mince 1kg,Meat,Rosebank,4,135.0,Card
+2026-03-25,T1102,P008,Tomatoes 1kg,Produce,Sandton,2,30.0,Mobile
+2026-03-09,T1103,P010,Beef Mince 1kg,Meat,Sandton,5,135.0,EFT
+2026-05-02,T1104,P008,Tomatoes 1kg,Produce,Rosebank,2,30.0,EFT
+2026-06-24,T1105,P008,Tomatoes 1kg,Produce,Soweto,15,30.0,Card
+2026-01-18,T1106,P002,Rooibos Tea 100g,Beverages,Pretoria,13,55.0,EFT
+2026-03-09,T1107,P004,Croissant,Bakery,Soweto,3,22.5,Mobile
+2026-05-10,T1108,P009,Chicken Breasts 1kg,Meat,Soweto,6,120.0,Mobile
+2026-04-14,T1109,P006,Full Cream Milk 2L,Dairy,Rosebank,3,34.0,Mobile
+2026-02-26,T1110,P006,Full Cream Milk 2L,Dairy,Soweto,13,34.0,Mobile
+2026-06-01,T1111,P007,Bananas 1kg,Produce,Rosebank,4,24.0,Mobile
+2026-05-26,T1112,P003,Whole Wheat Bread,Bakery,Soweto,7,28.0,EFT
+2026-01-31,T1113,P006,Full Cream Milk 2L,Dairy,Pretoria,5,34.0,EFT
+2026-02-07,T1114,P009,Chicken Breasts 1kg,Meat,Soweto,11,120.0,Cash
+2026-03-26,T1115,P003,Whole Wheat Bread,Bakery,Sandton,9,28.0,EFT
+2026-03-17,T1116,P010,Beef Mince 1kg,Meat,Pretoria,8,135.0,Mobile
+2026-01-06,T1117,P009,Chicken Breasts 1kg,Meat,Soweto,12,120.0,Mobile
+2026-03-28,T1118,P002,Rooibos Tea 100g,Beverages,Pretoria,11,55.0,Cash
+2026-04-19,T1119,P006,Full Cream Milk 2L,Dairy,Soweto,11,34.0,Card
+03/15/2026,T1120,P003,Whole Wheat Bread,Bakery,Soweto,1,28.0,EFT
+2026-02-03,T1121,P006,Full Cream Milk 2L,Dairy,Pretoria,10,34.0,Mobile
+2026-05-04,T1122,P006,Full Cream Milk 2L,Dairy,Sandton,1,34.0,Cash
+2026-06-12,T1123,P002,Rooibos Tea 100g,Beverages,Soweto,11,55.0,EFT
+2026-01-05,T1124,P004,Croissant,Bakery,Pretoria,13,22.5,EFT
+2026-06-09,T1125,P006,Full Cream Milk 2L,Dairy,Rosebank,2,34.0,Card
+2026-01-25,T1126,P003,Whole Wheat Bread,Bakery,Rosebank,6,28.0,Mobile
+2026-02-22,T1127,P010,Beef Mince 1kg,Meat,Rosebank,11,135.0,EFT
+2026-01-22,T1128,P010,Beef Mince 1kg,Meat,Rosebank,7,135.0,Card
+2026-01-08,T1129,P005,Cheddar Cheese 500g,Dairy,Sandton,7,95.0,Cash
+2026-05-21,T1130,P009,Chicken Breasts 1kg,Meat,Pretoria,4,120.0,EFT
+2026-03-29,T1131,P006,Full Cream Milk 2L,Dairy,Pretoria,6,34.0,EFT
+2026-05-06,T1132,P006,Full Cream Milk 2L,Dairy,Soweto,14,34.0,Card
+2026-06-14,T1133,P008,Tomatoes 1kg,Produce,Sandton,3,30.0,Mobile
+2026-04-04,T1134,P005,Cheddar Cheese 500g,Dairy,Pretoria,14,95.0,Cash
+2026-04-05,T1135,P005,Cheddar Cheese 500g,Dairy,Pretoria,9,95.0,EFT
+2026-02-25,T1136,P010,Beef Mince 1kg,Meat,Pretoria,1,135.0,Card
+2026-06-15,T1137,P009,Chicken Breasts 1kg,Meat,Soweto,11,120.0,Mobile
+2026-06-07,T1138,P002,Rooibos Tea 100g,Beverages,Soweto,14,55.0,Mobile
+2026-03-23,T1139,P006,Full Cream Milk 2L,Dairy,Rosebank,6,34.0,Card
+2026-05-24,T1140,P003,Whole Wheat Bread,Bakery,Soweto,13,28.0,Mobile
+2026-06-11,T1141,P002,Rooibos Tea 100g,Beverages,Rosebank,15,55.0,Card
+2026-04-29,T1142,P004,Croissant,Bakery,Pretoria,4,22.5,Cash
+2026-05-12,T1143,P004,Croissant,Bakery,Soweto,13,22.5,Mobile
+2026-02-04,T1144,P009,Chicken Breasts 1kg,Meat,Soweto,11,120.0,EFT
+2026-06-16,T1145,P007,Bananas 1kg,Produce,Rosebank,9,24.0,Cash
+2026-06-05,T1146,P009,Chicken Breasts 1kg,Meat,Rosebank,12,120.0,Cash
+2026-02-03,T1147,P010,Beef Mince 1kg,Meat,Sandton,1,135.0,EFT
+2026-03-18,T1148,P003,Whole Wheat Bread,Bakery,Soweto,3,28.0,EFT
+2026-02-02,T1149,P008,Tomatoes 1kg,Produce,Rosebank,3,30.0,Card
+2026-02-17,T1150,P003,Whole Wheat Bread,Bakery,Pretoria,7,28.0,Card
+2026-03-18,T1151,P004,Croissant,Bakery,Soweto,9,22.5,Card
+2026-04-30,T1152,P007,Bananas 1kg,Produce,Soweto,3,24.0,Cash
+2026-05-11,T1153,P001,Coffee Beans 1kg,Beverages,Sandton,8,180.0,Card
+2026-01-25,T1154,P006,Full Cream Milk 2L,Dairy,Soweto,10,34.0,EFT
+2026-01-08,T1155,P003,Whole Wheat Bread,Bakery,Rosebank,9,28.0,Card
+2026-04-19,T1156,P007,Bananas 1kg,Produce,Rosebank,4,24.0,Cash
+2026-02-27,T1157,P008,Tomatoes 1kg,Produce,Soweto,4,30.0,Cash
+2026-05-18,T1158,P007,Bananas 1kg,Produce,Pretoria,12,24.0,Mobile
+2026-04-03,T1159,P004,Croissant,Bakery,Pretoria,5,22.5,Mobile
+2026-01-24,T1160,P004,Croissant,Bakery,Rosebank,12,22.5,Card
+2026-01-21,T1161,P006,Full Cream Milk 2L,Dairy,Rosebank,12,34.0,Card
+2026-02-14,T1162,P004,Croissant,Bakery,Pretoria,11,22.5,Cash
+2026-04-20,T1163,P001,Coffee Beans 1kg,Beverages,Rosebank,9,180.0,EFT
+2026-03-15,T1164,P006,Full Cream Milk 2L,Dairy,Sandton,7,34.0,Mobile
+2026-05-14,T1165,P008,Tomatoes 1kg,Produce,Soweto,15,30.0,EFT
+2026-05-05,T1166,P003,Whole Wheat Bread,Bakery,Rosebank,2,28.0,Cash
+2026-04-02,T1167,P008,Tomatoes 1kg,Produce,Sandton,7,30.0,EFT
+2026-03-07,T1168,P002,Rooibos Tea 100g,Beverages,Pretoria,8,55.0,EFT
+2026-05-20,T1169,P009,Chicken Breasts 1kg,Meat,Sandton,14,120.0,EFT
+2026-03-17,T1170,P001,Coffee Beans 1kg,Beverages,Sandton,2,180.0,Card
+2026-05-16,T1171,P008,Tomatoes 1kg,Produce,Sandton,10,30.0,Mobile
+2026-06-15,T1172,P010,Beef Mince 1kg,Meat,Pretoria,8,135.0,Card
+2026-02-09,T1173,P006,Full Cream Milk 2L,Dairy,Sandton,3,34.0,Card
+2026-04-11,T1174,P002,Rooibos Tea 100g,Beverages,Soweto,3,55.0,Card
+2026-01-12,T1175,P002,Rooibos Tea 100g,Beverages,Sandton,13,55.0,EFT
+2026-02-09,T1176,P005,Cheddar Cheese 500g,Dairy,Rosebank,8,95.0,EFT
+2026-04-30,T1177,P004,Croissant,Bakery,Rosebank,7,22.5,EFT
+2026-04-18,T1178,P001,Coffee Beans 1kg,Beverages,Rosebank,8,180.0,Cash
+2026-04-23,T1179,P004,Croissant,Bakery,Sandton,13,22.5,Mobile
+2026-06-01,T1180,P007,Bananas 1kg,Produce,Sandton,8,24.0,Mobile
+2026-02-25,T1181,P007,Bananas 1kg,Produce,Sandton,12,24.0,Mobile
+2026-02-05,T1182,P005,Cheddar Cheese 500g,Dairy,Soweto,4,95.0,EFT
+2026-04-21,T1183,P010,Beef Mince 1kg,Meat,Soweto,1,135.0,Cash
+2026-05-16,T1184,P002,Rooibos Tea 100g,Beverages,Soweto,10,55.0,Cash
+2026-05-31,T1185,P002,Rooibos Tea 100g,Beverages,Rosebank,9,55.0,Mobile
+2026-04-14,T1186,P002,Rooibos Tea 100g,Beverages,Sandton,13,55.0,Mobile
+2026-04-13,T1187,P001,Coffee Beans 1kg,Beverages,Rosebank,4,180.0,Card
+2026-03-09,T1188,P003,Whole Wheat Bread,Bakery,Soweto,9,28.0,EFT
+2026-01-22,T1189,P005,Cheddar Cheese 500g,Dairy,Sandton,3,95.0,Cash
+2026-06-30,T1190,P009,Chicken Breasts 1kg,Meat,Pretoria,2,120.0,Card
+2026-04-02,T1191,P008,Tomatoes 1kg,Produce,Sandton,14,30.0,Cash
+2026-06-16,T1192,P008,Tomatoes 1kg,Produce,Soweto,1,30.0,Card
+2026-02-13,T1193,P002,Rooibos Tea 100g,Beverages,Rosebank,5,55.0,Card
+2026-03-15,T1194,P010,Beef Mince 1kg,Meat,Sandton,11,135.0,Mobile
+2026-03-08,T1195,P002,Rooibos Tea 100g,Beverages,Rosebank,15,55.0,Cash
+2026-05-07,T1196,P001,Coffee Beans 1kg,Beverages,Soweto,9,180.0,Cash
+2026-05-18,T1197,P007,Bananas 1kg,Produce,Sandton,8,24.0,Cash
+2026-01-09,T1198,P001,Coffee Beans 1kg,Beverages,Pretoria,7,180.0,Card
+2026-04-23,T1199,P010,Beef Mince 1kg,Meat,Rosebank,3,135.0,Cash
+2026-02-12,T1200,P009,Chicken Breasts 1kg,Meat,Soweto,-3,120.0,Mobile
+2026-03-13,T1201,P003,Whole Wheat Bread,Bakery,Sandton,8,28.0,Card
+2026-03-30,T1202,P002,Rooibos Tea 100g,Beverages,Rosebank,12,55.0,Cash
+2026-05-02,T1203,P003,Whole Wheat Bread,Bakery,Soweto,11,28.0,Cash
+2026-05-07,T1204,P009,Chicken Breasts 1kg,Meat,Rosebank,2,120.0,Card
+2026-04-08,T1205,P002,Rooibos Tea 100g,Beverages,Pretoria,12,55.0,Mobile
+2026-06-21,T1206,P010,Beef Mince 1kg,Meat,Soweto,6,135.0,Card
+2026-06-24,T1207,P010,Beef Mince 1kg,Meat,Soweto,1,135.0,Cash
+2026-01-30,T1208,P007,Bananas 1kg,Produce,Rosebank,15,24.0,EFT
+2026-06-02,T1209,P010,Beef Mince 1kg,Meat,Rosebank,11,135.0,EFT
+2026-05-17,T1210,P001,Coffee Beans 1kg,Beverages,Soweto,1,180.0,Cash
+2026-04-28,T1211,P010,Beef Mince 1kg,Meat,Rosebank,2,135.0,Mobile
+2026-02-10,T1212,P010,Beef Mince 1kg,Meat,Pretoria,9,135.0,Card
+2026-01-18,T1213,P003,Whole Wheat Bread,Bakery,Soweto,1,28.0,Cash
+2026-04-15,T1214,P005,Cheddar Cheese 500g,Dairy,Pretoria,1,95.0,EFT
+2026-02-08,T1215,P007,Bananas 1kg,Produce,Sandton,11,24.0,Mobile
+2026-05-31,T1216,P002,Rooibos Tea 100g,Beverages,Rosebank,2,55.0,EFT
+2026-04-24,T1217,P002,Rooibos Tea 100g,Beverages,Pretoria,14,55.0,EFT
+2026-04-23,T1218,P008,Tomatoes 1kg,Produce,Soweto,12,30.0,EFT
+2026-04-25,T1219,P010,Beef Mince 1kg,Meat,Pretoria,7,135.0,EFT
+2026-03-22,T1220,P003,Whole Wheat Bread,Bakery,Sandton,2,28.0,Cash
+2026-02-24,T1221,P005,Cheddar Cheese 500g,Dairy,Pretoria,12,95.0,Cash
+2026-06-27,T1222,P006,Full Cream Milk 2L,Dairy,Sandton,3,34.0,Cash
+2026-04-09,T1223,P003,Whole Wheat Bread,Bakery,Soweto,10,28.0,Mobile
+2026-02-23,T1224,P010,Beef Mince 1kg,Meat,Soweto,9,135.0,Mobile
+2026-06-27,T1225,P005,Cheddar Cheese 500g,Dairy,Pretoria,6,95.0,Cash
+2026-02-14,T1226,P009,Chicken Breasts 1kg,Meat,Sandton,5,120.0,Cash
+2026-03-18,T1227,P003,Whole Wheat Bread,Bakery,Pretoria,14,28.0,Cash
+2026-04-24,T1228,P007,Bananas 1kg,Produce,Pretoria,11,24.0,Card
+2026-06-06,T1229,P005,Cheddar Cheese 500g,Dairy,Sandton,12,95.0,EFT
+2026-05-24,T1230,P005,Cheddar Cheese 500g,Dairy,Pretoria,14,95.0,Cash
+2026-06-26,T1231,P009,Chicken Breasts 1kg,Meat,Soweto,15,120.0,EFT
+2026-03-31,T1232,P007,Bananas 1kg,Produce,Rosebank,9,24.0,Card
+2026-04-18,T1233,P009,Chicken Breasts 1kg,Meat,Pretoria,7,120.0,EFT
+2026-03-04,T1234,P009,Chicken Breasts 1kg,Meat,Pretoria,10,120.0,EFT
+2026-01-08,T1235,P002,Rooibos Tea 100g,Beverages,Rosebank,4,55.0,Cash
+2026-05-06,T1236,P010,Beef Mince 1kg,Meat,Pretoria,7,135.0,Cash
+2026-04-22,T1237,P009,Chicken Breasts 1kg,Meat,Soweto,4,120.0,Card
+2026-05-20,T1238,P002,Rooibos Tea 100g,Beverages,Sandton,2,55.0,Cash
+2026-04-12,T1239,P002,Rooibos Tea 100g,Beverages,Soweto,8,55.0,Card
+2026-04-17,T1240,P004,Croissant,Bakery,Soweto,6,22.5,Card
+2026-01-25,T1241,P002,Rooibos Tea 100g,Beverages,Soweto,13,55.0,Cash
+2026-04-28,T1242,P007,Bananas 1kg,Produce,Sandton,2,24.0,Cash
+2026-05-22,T1243,P008,Tomatoes 1kg,Produce,Rosebank,6,30.0,Card
+2026-01-23,T1244,P006,Full Cream Milk 2L,Dairy,Rosebank,4,34.0,Mobile
+2026-04-30,T1245,P002,Rooibos Tea 100g,Beverages,Pretoria,15,55.0,Cash
+2026-01-24,T1246,P001,Coffee Beans 1kg,Beverages,Pretoria,11,180.0,Mobile
+2026-01-17,T1247,P008,Tomatoes 1kg,Produce,Sandton,8,30.0,Mobile
+2026-05-02,T1248,P006,Full Cream Milk 2L,Dairy,Sandton,12,34.0,Card
+2026-04-15,T1249,P003,Whole Wheat Bread,Bakery,Sandton,7,28.0,EFT
+2026-05-20,T1250,P009,Chicken Breasts 1kg,Meat,Pretoria,4,120.0,Card
+2026-03-31,T1251,P003,Whole Wheat Bread,Bakery,Rosebank,1,28.0,EFT
+2026-03-08,T1252,P007,Bananas 1kg,Produce,Sandton,13,24.0,Cash
+2026-04-04,T1253,P002,Rooibos Tea 100g,Beverages,Sandton,7,55.0,EFT
+2026-03-23,T1254,P007,Bananas 1kg,Produce,Soweto,14,24.0,Cash
+2026-06-04,T1255,P009,Chicken Breasts 1kg,Meat,  soweto ,3,120.0,EFT
+2026-01-09,T1256,P009,Chicken Breasts 1kg,Meat,Soweto,10,120.0,Mobile
+2026-03-16,T1257,P007,Bananas 1kg,Produce,Soweto,12,24.0,Cash
+2026-07-01,T1258,P010,Beef Mince 1kg,Meat,Rosebank,8,135.0,EFT
+2026-05-13,T1259,P005,Cheddar Cheese 500g,Dairy,Soweto,5,95.0,Card
+2026-06-05,T1260,P004,Croissant,Bakery,Rosebank,1,22.5,EFT
+2026-06-28,T1261,P006,Full Cream Milk 2L,Dairy,Sandton,12,34.0,EFT
+2026-04-14,T1262,P007,Bananas 1kg,Produce,Pretoria,10,24.0,Mobile
+2026-06-22,T1263,P002,Rooibos Tea 100g,Beverages,Pretoria,6,55.0,Mobile
+2026-05-30,T1264,P006,Full Cream Milk 2L,Dairy,Pretoria,10,34.0,EFT
+2026-01-04,T1265,P006,Full Cream Milk 2L,Dairy,Soweto,7,34.0,EFT
+2026-05-03,T1266,P001,Coffee Beans 1kg,Beverages,Pretoria,6,180.0,Mobile
+2026-01-12,T1267,P010,Beef Mince 1kg,Meat,Soweto,1,135.0,Card
+2026-01-30,T1268,P006,Full Cream Milk 2L,Dairy,Soweto,7,34.0,Mobile
+2026-03-18,T1269,P005,Cheddar Cheese 500g,Dairy,Rosebank,1,95.0,Cash
+2026-01-15,T1270,P002,Rooibos Tea 100g,Beverages,Rosebank,4,55.0,Card
+2026-07-01,T1271,P006,Full Cream Milk 2L,Dairy,Pretoria,15,34.0,Card
+2026-06-23,T1272,P010,Beef Mince 1kg,Meat,Sandton,9,135.0,EFT
+2026-02-02,T1273,P002,Rooibos Tea 100g,Beverages,Pretoria,14,55.0,Cash
+2026-01-30,T1274,P002,Rooibos Tea 100g,Beverages,Sandton,15,55.0,Card
+2026-05-31,T1275,P007,Bananas 1kg,Produce,Rosebank,1,24.0,Mobile
+2026-05-24,T1276,P001,Coffee Beans 1kg,Beverages,Soweto,13,180.0,Mobile
+2026-04-05,T1277,P009,Chicken Breasts 1kg,Meat,Pretoria,11,120.0,Cash
+2026-01-14,T1278,P007,Bananas 1kg,Produce,Rosebank,5,24.0,EFT
+2026-06-13,T1279,P009,Chicken Breasts 1kg,Meat,Pretoria,3,120.0,Card
+2026-01-18,T1280,P008,Tomatoes 1kg,Produce,Pretoria,10,30.0,Mobile
+2026-04-23,T1281,P003,Whole Wheat Bread,Bakery,Sandton,13,28.0,EFT
+2026-01-25,T1282,P003,Whole Wheat Bread,Bakery,Rosebank,7,28.0,EFT
+2026-04-29,T1283,P009,Chicken Breasts 1kg,Meat,Rosebank,10,120.0,Cash
+2026-03-24,T1284,P003,Whole Wheat Bread,Bakery,Soweto,13,28.0,Card
+2026-01-27,T1285,P004,Croissant,Bakery,Pretoria,8,22.5,Card
+2026-04-03,T1286,P007,Bananas 1kg,Produce,Sandton,2,24.0,EFT
+2026-05-28,T1287,P002,Rooibos Tea 100g,Beverages,Rosebank,5,55.0,Cash
+2026-03-29,T1288,P005,Cheddar Cheese 500g,Dairy,Soweto,2,95.0,Card
+2026-05-20,T1289,P002,Rooibos Tea 100g,Beverages,Rosebank,12,55.0,Mobile
+2026-05-23,T1290,P006,Full Cream Milk 2L,Dairy,Rosebank,13,34.0,Cash
+2026-02-08,T1291,P004,Croissant,Bakery,Soweto,9,22.5,Card
+2026-04-10,T1292,P005,Cheddar Cheese 500g,Dairy,Pretoria,10,95.0,EFT
+2026-02-18,T1293,P004,Croissant,Bakery,Rosebank,13,22.5,EFT
+2026-05-02,T1294,P002,Rooibos Tea 100g,Beverages,Rosebank,15,55.0,EFT
+2026-05-17,T1295,P001,Coffee Beans 1kg,Beverages,Soweto,9,180.0,Cash
+2026-03-12,T1296,P008,Tomatoes 1kg,Produce,Sandton,11,30.0,EFT
+2026-02-08,T1297,P005,Cheddar Cheese 500g,Dairy,Pretoria,8,95.0,Card
+2026-02-23,T1298,P005,Cheddar Cheese 500g,Dairy,Soweto,2,95.0,Mobile
+2026-01-19,T1299,P008,Tomatoes 1kg,Produce,Soweto,6,30.0,EFT
+2026-02-03,T1300,P001,Coffee Beans 1kg,Beverages,Sandton,15,180.0,EFT
+2026-04-22,T1301,P002,Rooibos Tea 100g,Beverages,Rosebank,15,55.0,Cash
+2026-05-19,T1302,P001,Coffee Beans 1kg,Beverages,Soweto,1,180.0,Cash
+2026-01-08,T1303,P006,Full Cream Milk 2L,Dairy,Soweto,2,34.0,Mobile
+2026-05-14,T1304,P007,Bananas 1kg,Produce,Soweto,11,24.0,Cash
+2026-01-11,T1305,P006,Full Cream Milk 2L,Dairy,Pretoria,14,34.0,Mobile
+2026-06-26,T1306,P007,Bananas 1kg,Produce,Soweto,1,24.0,EFT
+2026-02-21,T1307,P009,Chicken Breasts 1kg,Meat,Soweto,5,120.0,Mobile
+2026-05-18,T1308,P002,Rooibos Tea 100g,Beverages,Sandton,11,55.0,Mobile
+2026-04-30,T1309,P001,Coffee Beans 1kg,Beverages,Sandton,11,180.0,Mobile
+2026-02-07,T1310,P008,Tomatoes 1kg,beverages,Sandton,7,30.0,EFT
+2026-02-01,T1311,P005,Cheddar Cheese 500g,Dairy,Rosebank,2,95.0,Mobile
+2026-02-27,T1312,P004,Croissant,Bakery,Rosebank,5,22.5,Mobile
+2026-06-25,T1313,P001,Coffee Beans 1kg,Beverages,Sandton,2,180.0,Mobile
+2026-03-31,T1314,P003,Whole Wheat Bread,Bakery,Rosebank,7,28.0,Cash
+2026-06-29,T1315,P010,Beef Mince 1kg,Meat,Rosebank,5,135.0,EFT
+2026-04-21,T1316,P005,Cheddar Cheese 500g,Dairy,Pretoria,7,95.0,Mobile
+2026-02-21,T1317,P002,Rooibos Tea 100g,Beverages,Pretoria,7,55.0,EFT
+2026-02-25,T1318,P010,Beef Mince 1kg,Meat,Pretoria,9,135.0,EFT
+2026-03-23,T1319,P004,Croissant,Bakery,Soweto,12,22.5,Card
+2026-02-19,T1320,P005,Cheddar Cheese 500g,Dairy,Sandton,3,95.0,Mobile
+2026-02-15,T1321,P004,Croissant,Bakery,Rosebank,12,22.5,EFT
+2026-06-09,T1322,P007,Bananas 1kg,Produce,Pretoria,8,24.0,Card
+2026-03-12,T1323,P005,Cheddar Cheese 500g,Dairy,Sandton,12,95.0,Card
+2026-03-12,T1324,P008,Tomatoes 1kg,Produce,Sandton,6,30.0,Mobile
+2026-05-15,T1325,P009,Chicken Breasts 1kg,Meat,Soweto,7,120.0,Mobile
+2026-01-24,T1326,P002,Rooibos Tea 100g,Beverages,Soweto,12,55.0,Card
+2026-06-30,T1327,P001,Coffee Beans 1kg,Beverages,Rosebank,9,180.0,Cash
+2026-03-25,T1328,P010,Beef Mince 1kg,Meat,Soweto,15,135.0,Cash
+2026-03-09,T1329,P010,Beef Mince 1kg,Meat,Soweto,11,135.0,Card
+2026-06-23,T1330,P005,Cheddar Cheese 500g,Dairy,Rosebank,15,95.0,EFT
+2026-05-04,T1331,P005,Cheddar Cheese 500g,Dairy,Sandton,8,95.0,Cash
+2026-03-10,T1332,P005,Cheddar Cheese 500g,Dairy,Sandton,7,95.0,Cash
+2026-04-11,T1333,P002,Rooibos Tea 100g,Beverages,Soweto,10,55.0,Mobile
+2026-05-24,T1334,P001,Coffee Beans 1kg,Beverages,Sandton,12,180.0,Card
+2026-01-15,T1335,P001,Coffee Beans 1kg,Beverages,Sandton,12,180.0,EFT
+2026-06-12,T1336,P003,Whole Wheat Bread,Bakery,Sandton,1,28.0,Mobile
+2026-01-14,T1337,P001,Coffee Beans 1kg,Beverages,Sandton,10,180.0,Mobile
+2026-01-14,T1338,P004,Croissant,Bakery,Rosebank,13,22.5,Mobile
+2026-02-21,T1339,P004,Croissant,Bakery,Soweto,1,22.5,Mobile
+2026-01-09,T1340,P004,Croissant,Bakery,Soweto,1,22.5,Mobile
+2026-04-25,T1341,P009,Chicken Breasts 1kg,Meat,Sandton,12,120.0,Mobile
+2026-07-01,T1342,P007,Bananas 1kg,Produce,Sandton,14,24.0,Card
+2026-03-20,T1343,P007,Bananas 1kg,Produce,Soweto,4,24.0,Card
+2026-01-21,T1344,P001,Coffee Beans 1kg,Beverages,Sandton,3,180.0,Cash
+2026-05-11,T1345,P004,Croissant,Bakery,Sandton,1,22.5,EFT
+2026-01-02,T1346,P004,Croissant,Bakery,Sandton,1,22.5,EFT
+2026-02-12,T1347,P007,Bananas 1kg,Produce,Pretoria,4,24.0,Card
+2026-04-21,T1348,P008,Tomatoes 1kg,Produce,Soweto,2,30.0,EFT
+2026-02-15,T1349,P010,Beef Mince 1kg,Meat,Sandton,4,135.0,Card
+2026-02-05,T1350,P007,Bananas 1kg,Produce,Sandton,8,24.0,Card
+2026-02-08,T1351,P010,Beef Mince 1kg,Meat,Pretoria,14,135.0,Mobile
+2026-01-06,T1352,P006,Full Cream Milk 2L,Dairy,Pretoria,13,34.0,Cash
+2026-05-30,T1353,P010,Beef Mince 1kg,Meat,Rosebank,3,135.0,Card
+2026-02-18,T1354,P004,Croissant,Bakery,Sandton,8,22.5,Cash
+2026-05-05,T1355,P002,Rooibos Tea 100g,Beverages,Pretoria,9,55.0,Card
+2026-04-05,T1356,P009,Chicken Breasts 1kg,Meat,Sandton,14,120.0,Cash
+2026-05-30,T1357,P010,Beef Mince 1kg,Meat,Sandton,10,135.0,EFT
+2026-05-06,T1358,P001,Coffee Beans 1kg,Beverages,Pretoria,11,180.0,Mobile
+2026-03-29,T1359,P006,Full Cream Milk 2L,Dairy,Soweto,5,34.0,Card
+2026-04-19,T1360,P007,Bananas 1kg,Produce,Soweto,4,24.0,Card
+2026-04-12,T1361,P008,Tomatoes 1kg,Produce,Rosebank,7,30.0,EFT
+2026-05-29,T1362,P008,Tomatoes 1kg,Produce,Soweto,4,30.0,Card
+2026-02-05,T1363,P005,Cheddar Cheese 500g,Dairy,Pretoria,2,95.0,Cash
+2026-04-07,T1364,P005,Cheddar Cheese 500g,Dairy,Pretoria,4,95.0,Mobile
+2026-02-08,T1365,P009,Chicken Breasts 1kg,Meat,Rosebank,13,120.0,Card
+2026-06-18,T1366,P010,Beef Mince 1kg,Meat,Rosebank,13,135.0,Card
+2026-05-16,T1367,P003,Whole Wheat Bread,Bakery,Soweto,12,28.0,Cash
+2026-06-11,T1368,P003,Whole Wheat Bread,Bakery,Soweto,1,28.0,Cash
+2026-04-14,T1369,P003,Whole Wheat Bread,Bakery,Rosebank,9,28.0,Mobile
+2026-06-27,T1370,P001,Coffee Beans 1kg,Beverages,Soweto,13,180.0,Card
+2026-04-08,T1371,P001,Coffee Beans 1kg,Beverages,Sandton,15,180.0,Mobile
+2026-01-03,T1372,P005,Cheddar Cheese 500g,Dairy,Soweto,2,95.0,Card
+2026-04-29,T1373,P009,Chicken Breasts 1kg,Meat,Sandton,1,120.0,Cash
+2026-03-01,T1374,P003,Whole Wheat Bread,Bakery,Rosebank,6,28.0,Mobile
+2026-06-01,T1375,P006,Full Cream Milk 2L,Dairy,Pretoria,15,34.0,Cash
+2026-06-15,T1376,P008,Tomatoes 1kg,Produce,Rosebank,9,30.0,Mobile
+2026-04-12,T1377,P001,Coffee Beans 1kg,Beverages,Rosebank,11,180.0,Card
+2026-06-26,T1378,P010,Beef Mince 1kg,Meat,Sandton,7,135.0,Cash
+2026-01-25,T1379,P004,Croissant,Bakery,Soweto,9,22.5,Mobile
+2026-01-16,T1380,P008,Tomatoes 1kg,Produce,Sandton,1,30.0,Cash
+2026-02-02,T1381,P004,Croissant,Bakery,Pretoria,9,22.5,Mobile
+2026-06-03,T1382,P006,Full Cream Milk 2L,Dairy,Soweto,4,34.0,Cash
+2026-02-02,T1383,P008,Tomatoes 1kg,Produce,Pretoria,5,30.0,EFT
+2026-03-24,T1384,P001,Coffee Beans 1kg,Beverages,Rosebank,2,180.0,EFT
+2026-01-31,T1385,P001,Coffee Beans 1kg,Beverages,Sandton,12,180.0,Mobile
+2026-02-19,T1386,P008,Tomatoes 1kg,Produce,Pretoria,2,30.0,Card
+2026-06-15,T1387,P002,Rooibos Tea 100g,Beverages,Soweto,3,55.0,Cash
+2026-03-02,T1388,P006,Full Cream Milk 2L,Dairy,Pretoria,2,34.0,EFT
+2026-05-22,T1389,P006,Full Cream Milk 2L,Dairy,Pretoria,1,34.0,Card
+2026-01-27,T1390,P006,Full Cream Milk 2L,Dairy,Rosebank,5,34.0,Card
+2026-04-10,T1391,P002,Rooibos Tea 100g,Beverages,Rosebank,1,55.0,Card
+2026-02-07,T1392,P003,Whole Wheat Bread,Bakery,Sandton,6,28.0,Cash
+2026-01-28,T1393,P006,Full Cream Milk 2L,Dairy,Rosebank,14,34.0,Card
+2026-04-05,T1394,P002,Rooibos Tea 100g,Beverages,Soweto,2,55.0,Cash
+2026-06-03,T1395,P005,Cheddar Cheese 500g,Dairy,Sandton,14,95.0,Cash
+2026-03-15,T1396,P002,Rooibos Tea 100g,Beverages,Sandton,10,55.0,Cash
+2026-02-24,T1397,P009,Chicken Breasts 1kg,Meat,Sandton,7,120.0,Cash
+2026-04-06,T1398,P003,Whole Wheat Bread,Bakery,Sandton,12,28.0,Cash
+2026-02-17,T1399,P003,Whole Wheat Bread,Bakery,Pretoria,4,28.0,Cash
+2026-05-06,T1400,P009,Chicken Breasts 1kg,Meat,Pretoria,8,120.0,Mobile
+2026-01-12,T1401,P005,Cheddar Cheese 500g,Dairy,Sandton,12,95.0,EFT
+2026-03-20,T1402,P003,Whole Wheat Bread,Bakery,Pretoria,5,28.0,EFT
+2026-03-15,T1403,P003,Whole Wheat Bread,Bakery,Rosebank,5,28.0,Mobile
+2026-04-21,T1404,P005,Cheddar Cheese 500g,Dairy,Sandton,14,95.0,Cash
+2026-06-07,T1405,P008,Tomatoes 1kg,Produce,Soweto,5,30.0,Mobile
+2026-04-14,T1406,P007,Bananas 1kg,Produce,Soweto,1,24.0,Mobile
+2026-01-23,T1407,P004,Croissant,Bakery,Rosebank,10,22.5,Mobile
+2026-01-14,T1408,P006,Full Cream Milk 2L,Dairy,Sandton,6,34.0,EFT
+2026-05-28,T1409,P007,Bananas 1kg,Produce,Pretoria,6,24.0,Card
+2026-05-27,T1410,P007,Bananas 1kg,Produce,Soweto,1,24.0,Mobile
+2026-03-09,T1411,P004,Croissant,Bakery,Rosebank,4,22.5,Mobile
+2026-06-22,T1412,P010,Beef Mince 1kg,Meat,Pretoria,3,135.0,Mobile
+2026-04-29,T1413,P002,Rooibos Tea 100g,Beverages,Pretoria,1,55.0,EFT
+2026-03-07,T1414,P005,Cheddar Cheese 500g,Dairy,Soweto,7,95.0,Card
+2026-03-04,T1415,P008,Tomatoes 1kg,Produce,Sandton,3,30.0,EFT
+2026-04-17,T1416,P009,Chicken Breasts 1kg,Meat,Rosebank,4,120.0,Mobile
+2026-04-10,T1417,P001,Coffee Beans 1kg,Beverages,Soweto,8,180.0,Mobile
+2026-05-09,T1418,P010,Beef Mince 1kg,Meat,Soweto,7,135.0,Card
+2026-04-15,T1419,P005,Cheddar Cheese 500g,Dairy,Sandton,9,95.0,Mobile
+2026-05-24,T1420,P009,Chicken Breasts 1kg,Meat,Sandton,3,120.0,Cash
+2026-05-27,T1421,P007,Bananas 1kg,Produce,Rosebank,3,24.0,Card
+2026-05-29,T1422,P009,Chicken Breasts 1kg,Meat,Pretoria,15,120.0,Mobile
+2026-05-27,T1423,P006,Full Cream Milk 2L,Dairy,Pretoria,4,34.0,Card
+2026-01-29,T1424,P001,Coffee Beans 1kg,Beverages,Pretoria,1,180.0,Mobile
+2026-06-21,T1425,P001,Coffee Beans 1kg,Beverages,Rosebank,1,180.0,Cash
+2026-02-12,T1426,P001,Coffee Beans 1kg,Beverages,Pretoria,14,180.0,Card
+2026-01-23,T1427,P007,Bananas 1kg,Produce,Rosebank,10,24.0,EFT
+2026-03-21,T1428,P003,Whole Wheat Bread,Bakery,Rosebank,8,28.0,Card
+2026-06-29,T1429,P007,Bananas 1kg,Produce,Rosebank,12,24.0,EFT
+2026-03-10,T1430,P004,Croissant,Bakery,Pretoria,2,22.5,Mobile
+2026-03-11,T1431,P007,Bananas 1kg,Produce,Pretoria,15,24.0,EFT
+2026-02-23,T1432,P003,Whole Wheat Bread,Bakery,Rosebank,11,28.0,Card
+2026-04-21,T1433,P008,Tomatoes 1kg,Produce,Pretoria,15,30.0,Mobile
+2026-06-02,T1434,P003,Whole Wheat Bread,Bakery,Soweto,2,28.0,Card
+2026-06-28,T1435,P006,Full Cream Milk 2L,Dairy,Rosebank,14,34.0,EFT
+2026-03-18,T1436,P008,Tomatoes 1kg,Produce,Pretoria,11,30.0,Mobile
+2026-02-04,T1437,P006,Full Cream Milk 2L,Dairy,Rosebank,14,34.0,Card
+2026-05-17,T1438,P010,Beef Mince 1kg,Meat,Sandton,10,135.0,Cash
+2026-02-25,T1439,P003,Whole Wheat Bread,Bakery,Rosebank,2,28.0,Mobile
+2026-06-30,T1440,P007,Bananas 1kg,Produce,Pretoria,9,24.0,Cash
+2026-02-12,T1441,P008,Tomatoes 1kg,Produce,Sandton,14,30.0,Cash
+2026-05-15,T1442,P004,Croissant,Bakery,Sandton,13,22.5,Cash
+2026-05-25,T1443,P005,Cheddar Cheese 500g,Dairy,Pretoria,12,95.0,Card
+2026-04-06,T1444,P001,Coffee Beans 1kg,Beverages,Rosebank,15,180.0,EFT
+2026-02-08,T1445,P010,Beef Mince 1kg,Meat,Sandton,3,135.0,Mobile
+2026-03-17,T1446,P003,Whole Wheat Bread,Bakery,Pretoria,6,28.0,EFT
+2026-05-07,T1447,P010,Beef Mince 1kg,Meat,Rosebank,9,135.0,Mobile
+2026-01-25,T1448,P008,Tomatoes 1kg,Produce,Pretoria,12,30.0,Cash
+2026-03-17,T1449,P006,Full Cream Milk 2L,Dairy,Pretoria,3,34.0,Card
+2026-07-01,T1450,P007,Bananas 1kg,Produce,Soweto,15,24.0,EFT
+2026-01-01,T1451,P002,Rooibos Tea 100g,Beverages,Soweto,2,55.0,EFT
+2026-06-06,T1452,P005,Cheddar Cheese 500g,Dairy,Sandton,7,95.0,Mobile
+2026-04-03,T1453,P009,Chicken Breasts 1kg,Meat,Soweto,5,120.0,Card
+2026-01-08,T1454,P008,Tomatoes 1kg,Produce,Soweto,11,30.0,EFT
+2026-01-30,T1455,P005,Cheddar Cheese 500g,Dairy,Sandton,9,95.0,Card
+2026-01-29,T1456,P004,Croissant,Bakery,Rosebank,13,22.5,Card
+2026-04-06,T1457,P007,Bananas 1kg,Produce,Soweto,1,24.0,Card
+2026-05-22,T1458,P004,Croissant,Bakery,Pretoria,15,22.5,Card
+2026-06-05,T1459,P006,Full Cream Milk 2L,Dairy,Pretoria,14,34.0,Card
+2026-01-04,T1460,P002,Rooibos Tea 100g,Beverages,Sandton,1,55.0,EFT
+2026-03-15,T1461,P005,Cheddar Cheese 500g,Dairy,Pretoria,5,95.0,Card
+2026-04-04,T1462,P002,Rooibos Tea 100g,Beverages,Pretoria,6,55.0,EFT
+2026-06-21,T1463,P004,Croissant,Bakery,Rosebank,10,22.5,Card
+2026-01-13,T1464,P003,Whole Wheat Bread,Bakery,Soweto,6,28.0,Card
+2026-06-10,T1465,P010,Beef Mince 1kg,Meat,Rosebank,13,135.0,Card
+2026-05-21,T1466,P009,Chicken Breasts 1kg,Meat,Sandton,10,120.0,EFT
+2026-05-30,T1467,P010,Beef Mince 1kg,Meat,Rosebank,6,135.0,Card
+2026-03-18,T1468,P003,Whole Wheat Bread,Bakery,Pretoria,4,28.0,Cash
+2026-02-25,T1469,P007,Bananas 1kg,Produce,Pretoria,11,24.0,EFT
+2026-01-25,T1470,P007,Bananas 1kg,Produce,Soweto,9,24.0,EFT
+2026-02-06,T1471,P005,Cheddar Cheese 500g,Dairy,Soweto,8,95.0,EFT
+2026-05-11,T1472,P001,Coffee Beans 1kg,Beverages,Soweto,6,180.0,Card
+2026-04-07,T1473,P006,Full Cream Milk 2L,Dairy,Soweto,6,34.0,Mobile
+2026-02-05,T1474,P006,Full Cream Milk 2L,Dairy,Soweto,3,34.0,EFT
+2026-04-22,T1475,P002,Rooibos Tea 100g,Beverages,Pretoria,9,55.0,Cash
+2026-03-08,T1476,P001,Coffee Beans 1kg,Beverages,Soweto,11,180.0,Mobile
+2026-01-21,T1477,P004,Croissant,Bakery,Pretoria,6,22.5,EFT
+2026-01-06,T1478,P007,Bananas 1kg,Produce,Soweto,10,24.0,Cash
+2026-04-17,T1479,P007,Bananas 1kg,Produce,Sandton,11,24.0,EFT
+2026-06-18,T1480,P004,Croissant,Bakery,Sandton,4,22.5,Mobile
+2026-06-06,T1481,P002,Rooibos Tea 100g,Beverages,Soweto,15,55.0,Cash
+2026-06-27,T1482,P001,Coffee Beans 1kg,Beverages,Soweto,8,180.0,Mobile
+2026-04-26,T1483,P008,Tomatoes 1kg,Produce,Rosebank,7,30.0,Mobile
+2026-06-17,T1484,P010,Beef Mince 1kg,Meat,Sandton,2,135.0,EFT
+2026-06-28,T1485,P005,Cheddar Cheese 500g,Dairy,Pretoria,2,95.0,Card
+2026-03-01,T1486,P005,Cheddar Cheese 500g,Dairy,Pretoria,1,95.0,EFT
+2026-04-19,T1487,P004,Croissant,Bakery,Soweto,2,22.5,Cash
+2026-05-30,T1488,P006,Full Cream Milk 2L,Dairy,Pretoria,5,34.0,Card
+2026-05-11,T1489,P001,Coffee Beans 1kg,Beverages,Pretoria,12,180.0,EFT
+2026-04-08,T1490,P008,Tomatoes 1kg,Produce,Sandton,9,30.0,Mobile
+2026-02-07,T1491,P005,Cheddar Cheese 500g,Dairy,Pretoria,12,95.0,Mobile
+2026-03-17,T1492,P002,Rooibos Tea 100g,Beverages,Rosebank,3,55.0,Card
+2026-02-17,T1493,P009,Chicken Breasts 1kg,Meat,Soweto,14,120.0,EFT
+2026-02-02,T1494,P006,Full Cream Milk 2L,Dairy,Sandton,14,34.0,Cash
+2026-06-22,T1495,P006,Full Cream Milk 2L,Dairy,Pretoria,15,34.0,Mobile
+2026-05-17,T1496,P002,Rooibos Tea 100g,Beverages,Pretoria,14,55.0,Mobile
+2026-05-13,T1497,P009,Chicken Breasts 1kg,Meat,Soweto,8,120.0,Mobile
+2026-06-20,T1498,P002,Rooibos Tea 100g,Beverages,Pretoria,8,55.0,EFT
+2026-03-23,T1499,P008,Tomatoes 1kg,Produce,Pretoria,6,30.0,Mobile
+2026-01-03,T1500,P006,Full Cream Milk 2L,Dairy,Soweto,6,34.0,Cash
+2026-06-20,T1501,P007,Bananas 1kg,Produce,Sandton,8,24.0,Mobile
+2026-05-09,T1502,P006,Full Cream Milk 2L,Dairy,Sandton,4,34.0,Mobile
+2026-02-17,T1503,P005,Cheddar Cheese 500g,Dairy,Soweto,13,95.0,Mobile
+2026-01-18,T1504,P008,Tomatoes 1kg,Produce,Soweto,8,30.0,Cash
+2026-04-15,T1505,P005,Cheddar Cheese 500g,Dairy,Rosebank,1,95.0,Cash
+2026-01-04,T1506,P002,Rooibos Tea 100g,Beverages,Sandton,10,55.0,Mobile
+2026-02-13,T1507,P003,Whole Wheat Bread,Bakery,Sandton,10,28.0,Cash
+2026-03-25,T1508,P008,Tomatoes 1kg,Produce,Sandton,6,30.0,EFT
+2026-05-16,T1509,P001,Coffee Beans 1kg,Beverages,Pretoria,8,180.0,Mobile
+2026-05-10,T1510,P006,Full Cream Milk 2L,Dairy,Soweto,12,34.0,EFT
+2026-05-02,T1511,P010,Beef Mince 1kg,Meat,Sandton,2,135.0,Card
+2026-04-09,T1512,P010,Beef Mince 1kg,Meat,Rosebank,15,135.0,Cash
+2026-05-16,T1513,P004,Croissant,Bakery,Pretoria,3,22.5,Card
+2026-05-04,T1514,P005,Cheddar Cheese 500g,Dairy,Sandton,6,95.0,EFT
+2026-02-24,T1515,P006,Full Cream Milk 2L,Dairy,Sandton,14,34.0,Card
+2026-03-25,T1516,P010,Beef Mince 1kg,Meat,Pretoria,4,135.0,Mobile
+2026-02-18,T1517,P007,Bananas 1kg,Produce,Pretoria,7,24.0,EFT
+2026-05-04,T1518,P002,Rooibos Tea 100g,Beverages,Pretoria,5,55.0,Cash
+2026-02-05,T1519,P004,Croissant,Bakery,Rosebank,2,22.5,EFT
+2026-04-05,T1520,P003,Whole Wheat Bread,Bakery,Pretoria,13,28.0,Mobile
+2026-01-30,T1521,P004,Croissant,Bakery,Pretoria,3,22.5,EFT
+2026-03-06,T1522,P001,Coffee Beans 1kg,Beverages,Rosebank,5,180.0,Card
+2026-05-27,T1523,P007,Bananas 1kg,Produce,Rosebank,5,24.0,Cash
+2026-03-21,T1524,P004,Croissant,Bakery,Sandton,14,22.5,EFT
+2026-02-24,T1525,P004,Croissant,Bakery,Sandton,6,22.5,Cash
+2026-05-11,T1526,P002,Rooibos Tea 100g,Beverages,Soweto,11,55.0,EFT
+2026-05-02,T1527,P005,Cheddar Cheese 500g,Dairy,Soweto,14,95.0,Card
+2026-03-25,T1528,P009,Chicken Breasts 1kg,Meat,Pretoria,7,120.0,Cash
+2026-06-16,T1529,P008,Tomatoes 1kg,Produce,Rosebank,2,30.0,EFT
+2026-06-27,T1530,P003,Whole Wheat Bread,Bakery,Soweto,1,28.0,Cash
+2026-04-12,T1531,P006,Full Cream Milk 2L,Dairy,Sandton,15,34.0,Card
+2026-06-23,T1532,P007,Bananas 1kg,Produce,Pretoria,3,24.0,EFT
+2026-05-19,T1533,P004,Croissant,Bakery,Sandton,6,22.5,Cash
+2026-05-01,T1534,P002,Rooibos Tea 100g,Beverages,Soweto,1,55.0,Cash
+2026-05-19,T1535,P007,Bananas 1kg,Produce,Soweto,6,24.0,Mobile
+2026-01-06,T1536,P006,Full Cream Milk 2L,Dairy,Sandton,6,34.0,Cash
+2026-01-14,T1537,P001,Coffee Beans 1kg,Beverages,Sandton,14,180.0,Mobile
+2026-01-18,T1538,P005,Cheddar Cheese 500g,Dairy,Pretoria,14,95.0,EFT
+2026-04-04,T1539,P006,Full Cream Milk 2L,Dairy,Rosebank,8,34.0,Cash
+2026-02-22,T1540,P005,Cheddar Cheese 500g,Dairy,Rosebank,9,95.0,Card
+2026-02-13,T1541,P003,Whole Wheat Bread,Bakery,Soweto,7,28.0,EFT
+2026-06-06,T1542,P001,Coffee Beans 1kg,Beverages,Rosebank,9,180.0,Cash
+2026-03-02,T1543,P009,Chicken Breasts 1kg,Meat,Soweto,13,120.0,Cash
+2026-01-01,T1544,P006,Full Cream Milk 2L,Dairy,Sandton,14,34.0,Mobile
+2026-01-30,T1545,P010,Beef Mince 1kg,Meat,Rosebank,3,135.0,Mobile
+2026-04-05,T1546,P006,Full Cream Milk 2L,Dairy,Soweto,4,34.0,EFT
+2026-05-24,T1547,P004,Croissant,Bakery,Soweto,13,22.5,EFT
+2026-05-08,T1548,P005,Cheddar Cheese 500g,Dairy,Soweto,5,95.0,Card
+2026-06-03,T1549,P010,Beef Mince 1kg,Meat,Soweto,6,135.0,Cash
+2026-06-05,T1550,P003,Whole Wheat Bread,Bakery,Sandton,10,28.0,Mobile
+2026-01-12,T1551,P004,Croissant,Bakery,Pretoria,12,22.5,Card
+2026-06-11,T1552,P004,Croissant,Bakery,Pretoria,12,22.5,Cash
+2026-01-03,T1553,P004,Croissant,Bakery,Soweto,8,22.5,Cash
+2026-04-16,T1554,P009,Chicken Breasts 1kg,Meat,Soweto,1,120.0,Mobile
+2026-05-14,T1555,P007,Bananas 1kg,Produce,Soweto,1,24.0,Card
+2026-06-24,T1556,P009,Chicken Breasts 1kg,Meat,Pretoria,4,120.0,Mobile
+2026-01-30,T1557,P003,Whole Wheat Bread,Bakery,Rosebank,6,28.0,Cash
+2026-03-29,T1558,P008,Tomatoes 1kg,Produce,Rosebank,6,30.0,Mobile
+2026-01-10,T1559,P008,Tomatoes 1kg,Produce,Sandton,4,30.0,Card
+2026-05-26,T1560,P001,Coffee Beans 1kg,Beverages,Pretoria,9,180.0,Cash
+2026-04-25,T1561,P008,Tomatoes 1kg,Produce,Rosebank,4,30.0,Mobile
+2026-03-12,T1562,P005,Cheddar Cheese 500g,Dairy,Rosebank,6,95.0,Mobile
+2026-03-17,T1563,P004,Croissant,Bakery,Sandton,7,22.5,EFT
+2026-02-22,T1564,P002,Rooibos Tea 100g,Beverages,Soweto,1,55.0,Card
+2026-05-06,T1565,P003,Whole Wheat Bread,Bakery,Sandton,7,28.0,EFT
+2026-06-25,T1566,P003,Whole Wheat Bread,Bakery,Soweto,3,28.0,Card
+2026-03-24,T1567,P003,Whole Wheat Bread,Bakery,Sandton,15,28.0,Mobile
+2026-06-15,T1568,P006,Full Cream Milk 2L,Dairy,Pretoria,8,34.0,Mobile
+2026-04-02,T1569,P003,Whole Wheat Bread,Bakery,Sandton,7,28.0,EFT
+2026-05-24,T1570,P002,Rooibos Tea 100g,Beverages,Soweto,9,55.0,Cash
+2026-05-13,T1571,P004,Croissant,Bakery,Rosebank,14,22.5,Card
+2026-04-25,T1572,P008,Tomatoes 1kg,Produce,Sandton,1,30.0,Cash
+2026-01-23,T1573,P008,Tomatoes 1kg,Produce,Pretoria,6,30.0,Card
+2026-04-10,T1574,P001,Coffee Beans 1kg,Beverages,Pretoria,2,180.0,Mobile
+2026-05-04,T1575,P007,Bananas 1kg,Produce,Soweto,5,24.0,Mobile
+2026-06-02,T1576,P008,Tomatoes 1kg,Produce,Rosebank,9,30.0,Mobile
+2026-04-21,T1577,P009,Chicken Breasts 1kg,Meat,Sandton,10,120.0,Mobile
+2026-04-27,T1578,P007,Bananas 1kg,Produce,Sandton,12,24.0,Cash
+2026-03-16,T1579,P003,Whole Wheat Bread,Bakery,Pretoria,4,28.0,EFT
+2026-06-30,T1580,P010,Beef Mince 1kg,Meat,Pretoria,7,135.0,Card
+2026-02-16,T1581,P007,Bananas 1kg,Produce,Rosebank,11,24.0,Mobile
+2026-03-27,T1582,P005,Cheddar Cheese 500g,Dairy,Pretoria,12,95.0,EFT
+2026-01-26,T1583,P006,Full Cream Milk 2L,Dairy,Pretoria,5,34.0,Mobile
+2026-06-20,T1584,P004,Croissant,Bakery,Rosebank,4,22.5,Mobile
+2026-03-14,T1585,P004,Croissant,Bakery,Pretoria,7,22.5,Cash
+2026-01-04,T1586,P005,Cheddar Cheese 500g,Dairy,Pretoria,5,95.0,Card
+2026-05-24,T1587,P002,Rooibos Tea 100g,Beverages,Rosebank,2,55.0,Cash
+2026-01-26,T1588,P008,Tomatoes 1kg,Produce,Rosebank,9,30.0,Card
+2026-03-23,T1589,P005,Cheddar Cheese 500g,Dairy,Soweto,1,95.0,Card
+2026-04-06,T1590,P004,Croissant,Bakery,Sandton,3,22.5,Mobile
+2026-06-20,T1591,P009,Chicken Breasts 1kg,Meat,Sandton,8,120.0,Mobile
+2026-05-09,T1592,P005,Cheddar Cheese 500g,Dairy,Rosebank,5,95.0,Card
+2026-04-27,T1593,P004,Croissant,Bakery,Pretoria,7,22.5,EFT
+2026-01-23,T1594,P003,Whole Wheat Bread,Bakery,Pretoria,15,28.0,Cash
+2026-04-06,T1595,P006,Full Cream Milk 2L,Dairy,Soweto,11,34.0,Mobile
+2026-03-25,T1596,P002,Rooibos Tea 100g,Beverages,Soweto,8,55.0,Mobile
+2026-02-02,T1597,P007,Bananas 1kg,Produce,Sandton,14,24.0,Card
+2026-01-22,T1598,P003,Whole Wheat Bread,Bakery,Rosebank,1,28.0,Mobile
+2026-04-10,T1599,P003,Whole Wheat Bread,Bakery,Pretoria,8,28.0,Cash
