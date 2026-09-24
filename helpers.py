@@ -50,3 +50,18 @@ def remove_negative_quantity(df):
 
     return pd.DataFrame(clean_rows), removed 
 
+# Loop over each row, keeping track of rows already seen in a list. The first time a row appears, it's kept vis .append() and exact repeat is dropped and counted
+def remove_duplicate_rows(df):
+
+    clean_rows = []
+    removed = 0
+
+    for row in df.to_dict('records'):
+        if row in clean_rows:
+            removed += 1
+        else:
+            clean_rows.append(row)
+
+    return pd.DataFrame(clean_rows), removed
+
+
