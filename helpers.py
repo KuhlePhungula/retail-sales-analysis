@@ -36,4 +36,17 @@ def clean_price_column(df):
 
     return pd.DataFrame(clean_rows), removed
 
+# A sale can't be negative so we loop over each row and keep the ones with quantity >= 0. drop and count the negative quantities
+def remove_negative_quantity(df):
+
+    clean_rows = []
+    removed = 0
+
+    for row in df.to_dict('records'):
+        if row['quantity'] < 0:
+            removed += 1
+        else:
+            clean_rows.append(row)
+
+    return pd.DataFrame(clean_rows), removed 
 
