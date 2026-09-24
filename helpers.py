@@ -21,3 +21,19 @@ def drop_missing_quantity(df):
 
     return pd.DataFrame(clean_rows), removed
 
+# loop over each row and try convert unit_price to a float. Keep rows where the conversion is successful and drop and count the ones that fail
+def clean_price_column(df):
+
+    clean_rows = []
+    removed = 0
+
+    for row in df.to_dict('records'):
+        try:
+            row['unit_price'] = float(row['unit_price'])
+            clean_rows.append(row)
+        except (ValueError, TypeError):
+            removed += 1
+
+    return pd.DataFrame(clean_rows), removed
+
+
