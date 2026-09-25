@@ -95,5 +95,41 @@ def standardise_text_columns(df, columns):
         df[col] = df[col].astype(str).str.strip().str.title()
     return df
 
+# run full cleaning
+def clean_dataset(df, text_columns=None, date_columns='date'):
 
+    if text_columns is None:
+        text_columns = ['store', 'category', 'payment_method', 'product_name']
+
+    starting_rows = len(df)
+    removal_log = {}
+
+    df, removed = drop_missing_quantity(df)
+    removal_log['missing quantity'] = removed
+
+    df, removed = clean_price_column(df)
+    removal_log['non-numeric price'] = removed
+
+    df, removed = remove_negative_quantity(df)
+    removal_log['negative quantity'] = removed
+
+    df, removed = remove_duplicate_rows(df)
+    removal_log['duplicate rows'] = removed
+
+    df = standardise_text_columns(df, text_columns)
+
+    df, removed = parse_dates_column(df)
+    removal_log['unparseable dates'] = removed
+
+    return df, removal_log, starting_rows
+
+def print_quality_report(starting_rows, removal_log, clean_rows):
+
+    print("DATA QUALITY REPORT")
+    print("=" * 30)
+    print(f"Starting rows: {starting_rows}")
+    for reason, count in removal_log.items():
+        print(f"Removed for {reason}: {count}")
+    print(f"Total rows removed: {starting_rows - clean_rows}")
+    print(f"Clean rows remaining: {clean_rows}")
 
