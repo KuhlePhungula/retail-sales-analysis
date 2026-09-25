@@ -88,4 +88,12 @@ def parse_dates_column(df, column='date'):
 
     return df, removed
 
+# Strip blank space and standardise
+def standardise_text_columns(df, columns):
+
+    for col in columns:
+        df[col] = df[col].astype(str).str.strip().str.title()
+    return df
+
+
 
