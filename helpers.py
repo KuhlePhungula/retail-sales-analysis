@@ -165,7 +165,7 @@ def best_selling_product_by_quantity(df):
 
 # single product with the highest total revenue
 def highest_earning_product_by_revenue(df):
-    by_rev = df.grouby('product_name')['revenue'].sum().sort_values(ascending=False)
+    by_rev = df.groupby('product_name')['revenue'].sum().sort_values(ascending=False)
     return by_rev.index[0], by_rev.iloc[0]
 
 # revenue summed by month
