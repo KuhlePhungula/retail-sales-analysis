@@ -2,6 +2,8 @@
 
 import pandas as pd
 from datetime import datetime
+import matplotlib.pyplot as plt
+import os
 
 # Load the raw CSV into a dataframe
 def load_data(filepath):
@@ -179,5 +181,43 @@ def average_transaction_value(df):
 def most_common_payment_method(df):
     counts = df['payment_method'].value_counts()
     return counts.index[0], counts.iloc[0]
+
+
+
+
+# functions for required charts
+
+def save_bar_chart(data, title, xlabel, ylabel, filename, charts_dir='charts'):
+
+    os.makedirs(charts_dir, exist_ok=True)
+    fig, ax = plt.subplots(figsize=(8, 5))
+    data.plot(kind='bar', ax=ax)
+    ax.set_title(title)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+
+    filepath = os.path.join(charts_dir, filename)
+    plt.savefig(filepath)
+    plt.show()
+    return filepath
+
+def save_line_chart(data, title, xlabel, ylabel, filename, charts_dir='charts'):
+
+    os.makedirs(charts_dir, exist_ok=True)
+    fig, ax = plt.subplots(figsize=(8, 5))
+    data.plot(kind='line', marker='o', ax=ax)
+    ax.set_title(title)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    plt.tight_layout()
+
+    filepath = os.path.join(charts_dir, filename)
+    plt.savefig(filepath)
+    plt.show()
+    return filepath 
+
+
 
 
