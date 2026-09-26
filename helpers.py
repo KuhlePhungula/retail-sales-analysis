@@ -160,7 +160,7 @@ def revenue_by_store(df):
 
 # best selling product with the highest total units sold
 def best_selling_product_by_quantity(df):
-    by_qty = df.groupby('product_name')['revenue'].sum().sort_values(ascending=False)
+    by_qty = df.groupby('product_name')['quantity'].sum().sort_values(ascending=False)
     return by_qty.index[0], by_qty.iloc[0]
 
 # single product with the highest total revenue
