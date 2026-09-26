@@ -133,3 +133,51 @@ def print_quality_report(starting_rows, removal_log, clean_rows):
     print(f"Total rows removed: {starting_rows - clean_rows}")
     print(f"Clean rows remaining: {clean_rows}")
 
+
+
+
+
+# Descriptive Analysis
+
+# add a revenue column
+def calculate_revenue(df):
+    df['revenue'] = df['quantity'] * df['unit_price']
+    return df
+
+# total revenue across all stores
+def total_revenue(df):
+    return df['revenue'].sum()
+
+# revenue per category, ranked highest to lowest
+def revenue_by_category(df):
+    return df.groupby('category')['revenue'].sum().sort_values(ascending=False)
+
+# revenue per store, ranked highest to lowest
+def revenue_by_store(df):
+    return df.groupby('store')['revenue'].sum().sort_values(ascending=False)
+
+# best selling product with the highest total units sold
+def best_selling_product_by_quantity(df):
+    by_qty = df.groupby('product_name')['revenue'].sum().sort_values(ascending=False)
+    return by_qty.index[0], by_qty.iloc[0]
+
+# single product with the highest total revenue
+def highest_earning_product_by_revenue(df):
+    by_rev = df.grouby('product_name')['revenue'].sum().sort_values(ascending=False)
+    return by_rev.index[0], by_rev.iloc[0]
+
+# revenue summed by month
+def revenue_by_month(df, date_columns='date'):
+    month_period = df[date_columns].dt.to_period('M')
+    return df.groupby(month_period)['revenue'].sum().sort_index()
+
+# mean revenue per transaction
+def average_transaction_value(df):
+    return df['revenue'].mean()
+
+# payment methods used in mosttransactions
+def most_common_payment_method(df):
+    counts = df['payment_method'].value_counts()
+    return counts.index[0], counts.iloc[0]
+
+
