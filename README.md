@@ -1,6 +1,6 @@
 # Retail Sales Analysis
 
-A data analysis of six months of transactions across four stores for a South African grocery retailer, built to answer a real business questions: which products, categories, and stores drive revenue — and what should the business do next?
+A data analysis of six months of transactions across four stores for a South African grocery retailer, built to answer a real business questions: which products, categories, and stores drive revenue - and what should the business do next?
 
 ## Author
 
